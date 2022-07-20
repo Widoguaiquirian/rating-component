@@ -1,0 +1,123 @@
+/*CSS Stylesheet T.O.C. - Table of contents
+Created XX April XXXX
+Last update April XX: 
+
+
+Compatible Browser:
+Firefox V.85.0.2 (64-bit)
+Chrome V.89.0.4389.90 (Build oficial) (64 bits)
+Edge V.89.0.774.54 (Compilación oficial) (64 bits)
+Safari V. 
+
+
+=RESET % CONDITIONAL COMMENT
+=GENERAL
+=LAYOUT:
+=PAGES
+
+      =index
+
+/*--- General ---*/
+/*--- Header ---*/
+/*--- Navigation ---*/
+/*--- Main ---*/
+/*--- Aside ---*/
+/*--- Footer ---*/
+/*--- Revisar ---*/
+/*--- Error ---*/
+/*--- Media Query ---*/
+/*--- Animation CSS ---*/
+/* ? FOR REGULAR COMMENTS */
+
+/*--- General ---*/
+/*
+
+*/
+
+:root {
+   --color-primary: #5ec576;
+   --color-secondary: #ffcb03;
+   --color-tertiary: #ff585f;
+   --color-primary-darker: #4bbb7d;
+   --color-secondary-darker: #ffbb00;
+   --color-tertiary-darker: #fd424b;
+
+   --zI-1: 1;
+   --zI-2: 2;
+   --zI-3: 3;
+   --zI-4: 4;
+   --zI-5: 5;
+
+   /* --z-slider__btn: var(--zI-1);
+   --z-nav: var(--zI-2);
+   --z-overlay: var(--zI-3);
+   --z-modal: var(--zI-4);
+   --z-cookie-message: var(--zI-2); */
+}
+
+* {
+   box-sizing: border-box;
+}
+
+html {
+   font-size: 62.5%;
+}
+
+body {
+   font-size: 1.6rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0;
+   font-family: "Source Sans Pro", sans-serif;
+   height: 100vh;
+   background: linear-gradient(rgb(9, 9, 90), pink);
+}
+
+img {
+   max-width: 100%;
+}
+
+h1,
+p,
+h2,
+h3,
+h4 {
+   margin: 0;
+   padding: 0;
+}
+
+ul,
+li {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+/*--- Header ---*/
+/* ? FOR REGULAR COMMENTS */
+
+.starts-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.rating {
+   display: flex;
+   justify-content: center;
+   max-width: 90%;
+}
+
+.item {
+   background-color: rgb(204, 204, 204);
+   width: 60px;
+   height: 47px;
+   cursor: pointer;
+   -webkit-mask-image: url(star-solid.svg);
+   mask-image: url(star-solid.svg);
+}
+
+.item-full {
+   background: linear-gradient(90deg, yellow, 30%, orange);
+}
